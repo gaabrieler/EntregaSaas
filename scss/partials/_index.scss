@@ -1,0 +1,268 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1rem;
+    background-color: white;
+}
+
+.seccionheader{
+    margin-top: 6.8rem;
+}
+
+.marginheader{
+    margin-top: 7rem;
+}
+
+.iconopag{
+    display: flex;
+    padding-left: 110px;
+}
+
+.menunavp{
+    background-color: $background-menu;
+    font-size: 15px;
+    gap: 30px;
+    padding-right: 100px;
+}
+
+.carousel-inner .carousel-item > img{
+    width: 100%;
+    height: 450px;
+}
+
+.conteimagmarcas{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    padding-top: 20px;
+    margin-bottom: 25px;
+}
+
+.logomarcas{
+    width: 180px;
+}
+
+.logomarcaterrain{
+    width: 200px;
+}
+
+.topventas{
+    color: black;
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: 2px;
+    padding: 40px;
+}
+
+.contenedorcard{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5px;
+}
+
+.card-titulo{
+    text-align: center;
+    font-size: 1rem;
+}
+
+.seccion1{
+    padding: 20px;
+    background-color: $beige;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.titulo2{
+    color: $titulo;
+    text-align: center;
+    font-size: 2.7rem;
+    letter-spacing: 2px;
+    padding: 40px;
+    margin: 40px;
+}
+
+.titulo3{
+    color: $subtitulo;
+    text-align: center;
+    letter-spacing: 2px;
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+
+.prodimg{
+    width: 350px;
+    height: 250px;
+}
+
+.productos{
+    width: 90%;
+    height: auto;
+    text-align: center;
+    margin: 30px auto;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+
+    justify-content: center;
+    align-items: center;
+}
+
+.tarjeta{
+    text-align: center;
+    margin: 40px;
+}
+
+.titulotarjeta{
+    color: $titulotarjeta;
+}
+.divlonas{
+
+    width: 90%;
+    height: auto;
+    text-align: center;
+    margin: 30px auto;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+
+    justify-content: center;
+    align-items: center;
+}
+
+.divaccesorios{
+
+    width: 90%;
+    height: auto;
+    text-align: center;
+    margin: 30px auto;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nosotros{
+    padding: 40px;
+}
+
+.prodimg:hover{
+    opacity: 1;
+    border: solid white;
+}
+
+.formulario{
+    text-align: center;
+    padding: 50px;
+}
+
+
+
+@media  only screen and (max-width: 768px) {
+    body{
+        background-color: white;
+    }
+    
+    .iconopag{
+        width: 220px;
+        display: flex;
+        padding-left: 40px;
+    }
+
+    .carousel-inner .carousel-item > img{
+        width: 102%;
+        height: 150px;
+    }
+
+    .logomarcas{
+        width: 80px;
+    }
+    
+    .topventas{
+        color: rgb(80, 80, 80);
+        text-align: center;
+        font-size: 2rem;
+        letter-spacing: 1.5px;
+        padding: 30px;
+    }
+
+    .titulo2{
+        color: rgb(80, 80, 80);
+        text-align: center;
+        font-size: 2rem;
+        letter-spacing: 2px;
+        padding: 40px;
+        margin: 40px;
+    }
+
+    .contenedorcard{
+        display: grid;
+        justify-content: space-evenly;
+        gap: 10px;
+    }
+
+    .prodimg{
+        width: 250px;
+        height: 150px;
+    }
+    
+    .productos{
+        width: 90%;
+        height: auto;
+        text-align: center;
+        margin: 30px auto;
+        
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+    
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .tarjeta{
+        text-align: center;
+        margin: 40px;
+    }
+    
+    .titulotarjeta{
+        color:rgb(95, 94, 94);
+    }
+
+    .divlonas{
+
+        width: 90%;
+        height: auto;
+        text-align: center;
+        margin: 30px auto;
+        
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+    
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .divaccesorios{
+    
+        width: 90%;
+        height: auto;
+        text-align: center;
+        margin: 30px auto;
+        
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+    
+        justify-content: center;
+        align-items: center;
+    
+    }    
+}

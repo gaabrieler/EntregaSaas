@@ -1,0 +1,131 @@
+.pie-pagina{
+    width: 100%;
+    background-color: $footer;
+    margin-top: 100px;
+}
+
+.pie-pagina .grupo-1{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 15px 0px;
+}
+
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+    height: 125px;
+}
+
+.pie-pagina .grupo-1 .box h4{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+
+.pie-pagina .grupo-1 .box .lista{
+    color: rgb(0, 0, 0);
+}
+
+.pie-pagina .grupo-1 .box p{
+    color: black;
+    margin-bottom: 10px;
+}
+
+.pie-pagina .grupo-1 .red-social a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    width: 250px;
+    padding-left: 100px;
+    padding-top: 20px;
+    color: black;
+}
+
+.pie-pagina .grupo-2{
+    background-color: rgb(0, 0, 0);
+    padding: 10px 10px;
+    text-align: center;
+    color: white;
+}
+
+.pie-pagina .grupo-2 small{
+    font-size: 0.8rem;
+}
+    
+    @media screen and (max-width: 768px) {
+
+        .pie-pagina{
+            width: 100%;
+            background-color: $footer;
+            margin-top: 100px;
+        }
+        
+        .pie-pagina .grupo-1{
+            width: 100%;
+            margin: auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-gap: 50px;
+            padding: 15px 0px;
+        }
+        
+        .pie-pagina .grupo-1 .box figure{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .pie-pagina .grupo-1 .box figure img{
+            padding-left: 20px;
+            width: 150px;
+            height: 100px;
+        }
+        
+        .pie-pagina .grupo-1 .box h4{
+            color: $titulo;
+            font-size: 15px;
+        }
+        
+        .pie-pagina .grupo-1 .box .lista{
+            font-size: 10px;
+            color: $titulo;
+        }
+        
+        .pie-pagina .grupo-1 .box p{
+            font-size: 13px;
+            color: $titulo;
+            margin-bottom: 5px;
+        }
+        
+        .pie-pagina .grupo-1 .red-social a{
+            display: flex;
+            width: 50px;
+            padding-left: 0;
+            padding-top: 10px;
+            color: $titulo;
+        }
+        
+        .pie-pagina .grupo-2{
+            background-color: $titulo;
+            padding: 10px 10px;
+            text-align: center;
+            color: white;
+        }
+        
+        .pie-pagina .grupo-2 small{
+            font-size: 0.8rem; 
+        }
+        
+    }
