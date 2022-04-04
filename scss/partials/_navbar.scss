@@ -1,7 +1,14 @@
 .menu{
-   background-color: $background-menu;   
+   background-color: $background-menu;
+    
 }
 a {
 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.menunavp{
+    font-size: 15px;
+    gap: 40px;
+    padding-right: 90px;
 }

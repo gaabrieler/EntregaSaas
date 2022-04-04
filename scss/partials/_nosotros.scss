@@ -1,0 +1,28 @@
+.divnosotros{
+    width: $ancho;
+    padding: 10px 30px;
+    background-color: white;
+}
+
+.parrafo1{
+    width: $ancho;
+    color: $gray;
+    padding-bottom: 15px;
+}
+
+.parrafo2{
+    width: $ancho - 25;
+    color: $blue;
+    padding-bottom: 15px;
+}
+
+.parrafo3{
+    width: $ancho - 50;
+    color: $red;
+    padding-bottom: 15px;
+}
+
+@for $i from 1 through 3 {
+    .parrafo#{$i} { font-size: 1rem * $i;}
+    
+}
