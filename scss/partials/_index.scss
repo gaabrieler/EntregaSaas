@@ -156,13 +156,17 @@ h1, h2, h3, h4, h5, h6{
     }
     
     .iconopag{
-        width: 220px;
+        width: 150px;
         display: flex;
-        padding-left: 40px;
+        padding-left: 15px;
+    }
+
+    .menu{
+        padding-right: 20px;
     }
 
     .seccionheader{
-        margin-top: 6.3rem;
+        margin-top: 5.1rem;
     }
 
     .carousel-inner .carousel-item > img{

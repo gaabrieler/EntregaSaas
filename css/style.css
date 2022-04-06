@@ -200,14 +200,17 @@ h1, h2, h3, h4, h5, h6 {
     background-color: white;
   }
   .iconopag {
-    width: 220px;
+    width: 150px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding-left: 40px;
+    padding-left: 15px;
+  }
+  .menu {
+    padding-right: 20px;
   }
   .seccionheader {
-    margin-top: 6.3rem;
+    margin-top: 5.1rem;
   }
   .carousel-inner .carousel-item > img {
     width: 102%;
@@ -450,7 +453,7 @@ h1, h2, h3, h4, h5, h6 {
   .pie-pagina {
     width: 100%;
     background-color: #b0b0b0;
-    margin-top: 100px;
+    margin-top: 5px;
   }
   .pie-pagina .grupo-1 {
     width: 100%;
@@ -459,7 +462,7 @@ h1, h2, h3, h4, h5, h6 {
     display: grid;
     -ms-grid-columns: 1fr 1fr 1fr;
         grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 50px;
+    grid-gap: 20px;
     padding: 15px 0px;
   }
   .pie-pagina .grupo-1 .box figure {
@@ -477,8 +480,8 @@ h1, h2, h3, h4, h5, h6 {
   }
   .pie-pagina .grupo-1 .box figure img {
     padding-left: 20px;
-    width: 150px;
-    height: 100px;
+    width: 130px;
+    height: 90px;
   }
   .pie-pagina .grupo-1 .box h4 {
     color: black;
