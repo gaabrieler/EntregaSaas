@@ -9,7 +9,7 @@ body{
 }
 
 .marginheader{
-    margin-top: 7rem;
+    margin-top: 6.9rem;
 }
 
 .iconopag{
@@ -88,6 +88,11 @@ h1, h2, h3, h4, h5, h6{
     height: 250px;
 }
 
+.divprod{
+    padding: 10px;
+    background-color: rgba(157, 157, 157, 0.605); 
+}
+
 .productos{
     width: 90%;
     height: auto;
@@ -104,7 +109,7 @@ h1, h2, h3, h4, h5, h6{
 
 .tarjeta{
     text-align: center;
-    margin: 40px;
+    margin: 60px;
 }
 
 .titulotarjeta{
@@ -169,12 +174,17 @@ h1, h2, h3, h4, h5, h6{
         margin-top: 5.1rem;
     }
 
+    .marginheader{
+        margin-top: 5.1rem;
+    }
+
     .carousel-inner .carousel-item > img{
         width: 102%;
         height: 150px;
     }
 
     .logomarcas{
+        padding-top: 20px;
         width: 80px;
     }
     

@@ -30,7 +30,7 @@ body {
 }
 
 .marginheader {
-  margin-top: 7rem;
+  margin-top: 6.9rem;
 }
 
 .iconopag {
@@ -119,6 +119,11 @@ h1, h2, h3, h4, h5, h6 {
   height: 250px;
 }
 
+.divprod {
+  padding: 10px;
+  background-color: rgba(157, 157, 157, 0.605);
+}
+
 .productos {
   width: 90%;
   height: auto;
@@ -140,7 +145,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .tarjeta {
   text-align: center;
-  margin: 40px;
+  margin: 60px;
 }
 
 .titulotarjeta {
@@ -212,11 +217,15 @@ h1, h2, h3, h4, h5, h6 {
   .seccionheader {
     margin-top: 5.1rem;
   }
+  .marginheader {
+    margin-top: 5.1rem;
+  }
   .carousel-inner .carousel-item > img {
     width: 102%;
     height: 150px;
   }
   .logomarcas {
+    padding-top: 20px;
     width: 80px;
   }
   .topventas {
@@ -336,7 +345,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 4rem;
   color: #c6c6c6;
   position: absolute;
-  top: 4%;
+  top: 3%;
   left: 23%;
   letter-spacing: 8px;
 }
@@ -346,7 +355,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 3.5rem;
   color: #c6c6c6;
   position: absolute;
-  top: 85%;
+  top: 83%;
   left: 33%;
   letter-spacing: 8px;
 }
@@ -406,6 +415,103 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
+@media only screen and (max-width: 768px) {
+  .divnosotros {
+    width: 100%;
+    padding: 10px 20px;
+  }
+  .contenosotros {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    margin: 85px auto;
+    -webkit-box-shadow: 5px 8px 12px black;
+            box-shadow: 5px 8px 12px black;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  .contenosotros img {
+    width: 100%;
+    height: 200px;
+  }
+  .contenosotros h1 {
+    font-size: 1rem;
+    color: #c6c6c6;
+    position: absolute;
+    top: 2%;
+    left: 13%;
+    letter-spacing: 8px;
+  }
+  .contenosotros p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 0.7rem;
+    color: #c6c6c6;
+    position: absolute;
+    top: 88%;
+    left: 30%;
+    letter-spacing: 8px;
+  }
+  .titulon {
+    color: black;
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    padding: 20px 20px;
+  }
+  .subtitulon {
+    color: black;
+    text-align: center;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    padding: 1px 10px;
+  }
+  .parrafo1 {
+    text-align: center;
+    color: black;
+    font-size: 1rem;
+  }
+  .titulop {
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 30px;
+    letter-spacing: 2px;
+  }
+  .parrafo2 {
+    color: black;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .listamarcas {
+    font-size: 1rem;
+    padding-top: 15px 15px;
+  }
+  .parrafo3 {
+    color: black;
+    font-size: 1rem;
+    padding-top: 20px;
+    text-align: center;
+  }
+}
+
+p {
+  padding: 20px 20px;
+  text-align: center;
+}
+
 .pie-pagina {
   width: 100%;
   background-color: #b0b0b0;
@@ -449,12 +555,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .pie-pagina .grupo-1 .box .lista {
+  padding-top: 15px;
   color: black;
 }
 
 .pie-pagina .grupo-1 .box p {
   color: black;
-  margin-bottom: 10px;
+  margin-bottom: -1rem;
 }
 
 .pie-pagina .grupo-1 .red-social a {
